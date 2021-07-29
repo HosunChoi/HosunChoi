@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<!-- html/rwd_layout_001.html -->
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--[if IE]>
+    <script src="../ie/html5shiv/dist/html5shiv.min.js"></script>
+    <script src="../ie/ie9js/ie9.min.js"></script>
+    <script src="../ie/csspie/PIE.js"></script>
+    <script src="../ie/responsive.min.js"></script>
+  <![endif]-->
+  <link rel="shortcut icon" href="../favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="../favicon.png">
+  
+  <!-- fontawesome5 -->
+  <link rel="stylesheet" href="../fonts/fontawesome5/css/all.min.css">
+  
+  <!-- css design -->
+  <link rel="stylesheet" href="../css/base/root.css">
+  <link rel="stylesheet" href="../css/base/font.css">
+  <link rel="stylesheet" href="../css/base/reset.css">
+  <link rel="stylesheet" href="../css/base/common.css">
+  <link rel="stylesheet" href="../css/src/rwd01/rwd_layout_001.css">
+
+  <title>웹 기초</title>
+  
+</head>
+<body>
+  <!-- layout -->
+<div id="wrap">
+  <header id="headBox">
+    <div class="container">
+      <h1><a href="rwd_layout_001.html"> 
+        <span class="blind">soundlook webpage</span> </a>
+      </h1>
+      <div class="head_btn">
+        <div class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+      <nav id="unb">
+        <h2 class="blind">user navigation</h2>
+        <ul>
+          <li><a href="#">join</a></li>
+          <li><a href="#">login</a></li>
+          <li><a href="#">my page</a></li>
+          <li><a href="#">community</a> </li>
+        </ul>
+      </nav>
+      <nav id="gnb">
+        <h2 class="blind">global navigation</h2>
+        <ul class="gnb_area">
+          <li><a href="#">about us</a></li>
+          <li><a href="#">magazine</a></li>
+          <li><a href="#">turntable</a></li>
+          <li><a href="#">vinyl</a></li>
+          <li><a href="#">mall</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header> <!-- #headBox ======================================= -->
+  <section id="viewBox">
+    <h2 class="blind">메인 광고 영역</h2>
+    <div class="indicator">
+      <ul class="blind_wrap">
+        <li><a href="#view_01"><span> 광고 1 </span></a></li>
+        <li><a href="#view_02"><span> 광고 2</span></a></li>
+        <li><a href="#view_03"><span> 광고 3</span></a></li>
+        <li><a href="#view_04"><span> 광고 4</span></a></li>
+      </ul>
+    </div>
+    <div class="view_area">
+      <div class="view_g">
+        <ul class="view_inner">
+          <li id="view_01">
+            <h3 class="blind">메인광고1</h3>
+            <dl>
+              <dt>old school jazz vinyl</dt>
+              <dd>jazz masterpiece in stock. <br />
+                meet them now!</dd>
+              <dd><a href="#">바로가기</a></dd>  
+            </dl>
+          </li>
+          <li id="view_02">
+            <h3 class="blind">메인광고2</h3>
+            <dl>
+              <dt>classic music </dt>
+              <dd>enjoy classical mood <br />
+                meet them now!</dd>
+              <dd><a href="#">바로가기</a></dd>  
+            </dl>
+          </li>
+          <li id="view_03">
+            <h3 class="blind">메인광고3</h3>
+            <dl>
+              <dt>modern drama</dt>
+              <dd>jazz masterpiece in stock. <br />
+                meet them now!</dd>
+              <dd><a href="#">바로가기</a></dd>  
+            </dl>
+          </li>
+          <li id="view_04">
+            <h3 class="blind">메인광고4</h3>
+            <dl>
+              <dt>sensory music</dt>
+              <dd>jazz masterpiece in stock. <br />
+                meet them now!</dd>
+              <dd><a href="#">바로가기</a></dd>  
+            </dl>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section> <!-- #viewBox ======================================= -->
+  <article id="bestBox">
+    <h2>best turntable</h2>
+    <div class="best_area">
+        <div class="best_01">
+          <a href="#">
+          <div class="bc_con_01"><span class="blind"></span></div>
+            <dl class="b_narr">
+              <dt>2021 신상품<br />사운드룩 dolce</dt>
+              <dd><span class="blind">디자인영역</span></dd>
+            </dl>
+          </a>
+      </div>
+      <div class="best_02">
+        <a href="#">
+        <div class="bc_con_02"></div>
+          <dl class="b_narr_02">
+            <dt>올인원 best<br />slt-5080pro</dt>
+            <dd><span class="blind">디자인영역</span></dd>
+          </dl>
+        </a>  
+      </div>
+      <div class="best_03">
+        <a href="#">
+        <div class="bc_con_03"></div>
+          <dl class="b_narr">
+            <dt>가방형 턴테이블<br />slt-100bt</dt>
+            <dd><span class="blind">디자인영역</span></dd>
+          </dl>
+        </a>  
+      </div>
+      </div>
+  </article> <!-- #bestBox =======================================-->
+  <section id="subViewBox">
+    <h2 class="blind"> 2021 new turntable  </h2>
+    <div class="subView_area">
+      <span class="blind"> pic_area </span>
+    </div>
+    <ul class="sv_con">
+      <li>사운드룩 dolce<br /> bluetooth radio turntable</li>
+      <li>lp+블루투스+라디오+일체형스피커 필요하 것만 담은 
+        dolce 진정한 미니멈 리치 라이프를 경험하세요</li>
+      <li><a href="#"> 바로가기</a></li>  
+    </ul>
+  </section> <!-- #subViewBox ==================================-->
+  <article id="recommendBox">
+    <h2 class="blind"> 취향에 맞는 턴테이블 추천 </h2>
+    <div class="re_area">
+      <div class="recommend_01">
+        <div class="re_pic">
+          <div class="r_narr">
+            <a href="#">
+              <p> 음악과 <br /> 레트로의 회귀 <br /> slt-7080bt <br />              
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="recommend_02">
+        <div class="re_pic">
+          <div class="r_narr">
+            <a href="#"> 
+              <p> 스타일로<br /> 턴테이블 <br /> gpo 11 <br />
+              </p>
+            </a>  
+        </div>
+        </div>
+      </div>
+      <div class="recommend_03">
+        <div class="re_pic">
+          <div class="r_narr">
+            <a href="#"> 
+              <p> 보헤미안<br /> 턴테이블 <br /> slt-200bt <br />
+              </p>
+            </a>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </article> <!-- #recommendBox =============================== -->
+  <section id="communityBox">
+    <h2 class="blind"> 사운드룩 음반신청게시판 </h2>
+      <p> 사운드룩 음반신청 게시판 <br />
+        찾으시는 음반이 없으시다면 신청하세요!
+      </p> 
+  </section> <!-- #communityBox ====================================-->
+  <article id="vinylBox">
+    <h2><i class="fas fa-compact-disc"></i> hot! 인기음반 </h2>
+    <div class="mob_btn">
+      <a href="#">
+        <span>지금 가장 hot한 vinyl 만나보기</span>
+      </a>
+    </div>
+    <div class="vinyl_btn_area">
+      <!-- <ul>
+        <li><a href="#">pop/rock</a></li>
+        <li><a href="#">jazz</a></li>
+        <li><a href="#">hiphop</a></li>
+        <li><a href="#">classic</a></li>
+        <li><a href="#">disco</a></li>
+        <li><a href="#">국내가요</a></li>
+      </ul> -->
+    </div>
+    <div class="vinyl_box">
+      <ul class="viny_list_area clearfix">
+        <!-- <li >
+          <div class="vinyl pic01"><span class="blind"></span></div>
+          <div class="vinyl_rarr">
+            <p> Cigarettes After Sex - Cigarettes After Sex[LP] </p>
+            <span> <del>41,900</del> </span>
+            <span> 40,000 </span>
+          </div>
+          <div class="vinyl_btn">
+            <button type="button"> 구매하기 </button>
+            <button type="button"> 장바구니 </button>
+          </div>
+        </li> -->
+      </ul>
+    </div>
+  </article> <!-- #vinylBox =======================================-->
+  <footer id="footBox">
+    <h2 class="blind"> soundlook 회사 소개 </h2>
+    <div class="site_infomation">
+      <div class="cs_area">
+        <h3> c/s center </h3>
+        <p> 통화량이 많을때는 QnA를 이용해주세요. </p>
+        <p> 1800 - 7298 </p>
+        <p> 평일 10:00 - 16:00 | 점심 12:00 - 13:00<br />
+        주말 및 공휴일 휴무 </p>
+      </div>
+      <div class="bank_area">
+        <h3> back info </h3>
+        <p> 국민은행 433401-01-316675<br />
+        기업은행 051-071336-04-019<br />
+        농협 355-0001-9764-13 </p>
+        <p> 예금주 &#40;주&#41; 사운드룩 </p>
+      </div>
+      <div class="mp_area">
+        <h3> my page </h3>
+        <p> 주문조회<br /> 장바구니 <br />
+        마이쿠폰 <br /> 회원정보 수정 </p>
+      </div>
+      <div class="community_area">
+        <h3> community </h3>
+        <p> 공지사항 <br /> 뉴스미디어 <br /> 음반신청 <br />
+        고객후기 </p>
+        <p> 질문답변 <br /> 자료실 <br /> 이벤트 <br />
+        사운드룩 TV</p>
+        </div>
+        <div class="snsnavi_area">
+          <h3>sns </h3>
+          <ul>
+            <li><a href="#"><span class="blind"> facbook_logo </span>
+              <i class="fab fa-facebook"></i></a> </li>
+            <li><a href="#"><span class="blind"> youtube_logo </span>
+              <i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><span class="blind"> instagram_logo </span>
+              <i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>   
+    </div>
+    <div class="company_infomation">
+      <ul class="user_direction">
+        <li><a href="#"> 이용약관</a></li>
+        <li><a href="#"> 개인정보취급방침 </a></li>
+        <li><a href="#"> 이용안내</a></li>
+        <li><a href="#"> CUPOST </a></li>
+        <li><a href="#"> LG U </a></li>
+        <li><a href="#"> 고객님은 안전거래를 위해 결제 시 
+          저희 쇼핑몰에서 가입한 구매안전<br /> 
+          서비스를 이용하실 수 있습니다.</a></li>
+        <li><button type="button"> 서비스 가입사실확인
+        </button> </li>
+      </ul>
+      <address class="company_address">
+        <ul>
+          <li>상호 &#58; &#40;주&#41;사운드룩 </li>
+          <li>대표 &#58;김문수</li>
+          <li>사업자등록번호 &#58; 117-81-23445</li>
+          <li>통신판매업 신고 &#58; 2013-고양일산서-378<li>
+          <li><a href="#">사업자 정보 확인</a></li>
+          <li>전화 &#58; 1800- 7398</li>
+          <li>주소 &#58; 
+            경기 고양시 일산동구 고봉로658번길 136</li>
+        </ul>
+      </address>
+      <p class="copy"> copyright c 2018 &#40;주&#41;사운드룩 allright reserved </p>
+    </div>
+  </footer> <!-- #footBox ======================================== -->
+</div>
+  <!-- script -->
+  <script src="../js/jquery/jquery-3.6.0.min.js"></script>
+  <script src="../js/jquery/jquery-ui.min.js"></script>
+  <!-- <script src="">/* 반응형기반 */</script> -->
+  <!-- <script src="">/* laptop,pc일경우 html생성, js불러오는 코드삽입 */</script> -->
+  <script src="../js/src/rwd_layout_001.js"></script>
+  <script>
+    /*현재 디바이스 체크*/
+
+    /* 
+    if(devictType = 'laptop' || devictType = 'pc'){
+      $('body').append('<js...>');
+    }
+    */
+  
+
+  </script>
+</body>
+</html>

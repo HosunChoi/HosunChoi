@@ -5,39 +5,224 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <!--[if IE]>
-    <script src="../ie/html5shiv/dist/html5shive.min.js"></script>
-    <script scr="../ie/csspie/PIE.js"></script>
-    <script scr="../ie/ie9js/ie9.min.js"></script>
-    <script scr="../ie/respomsive.min.js"></script>
+    <script src="../ie/html5shiv/dist/html5shiv.min.js"></script>
+    <script src="../ie/ie9js/ie9.min.js"></script>
+    <script src="../ie/csspie/PIE.js"></script>
+    <script src="../ie/responsive.min.js"></script>
   <![endif]-->
   <link rel="shortcut icon" href="../favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="../favicon.png">
-
-  <!-- font.google : noto sans -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap" rel="stylesheet">
+  
   <!-- fontawesome5 -->
   <link rel="stylesheet" href="../fonts/fontawesome5/css/all.min.css">
   
+  <!-- css design -->
+  <link rel="stylesheet" href="../css/base/root.css">
+  <link rel="stylesheet" href="../css/base/font.css">
   <link rel="stylesheet" href="../css/base/reset.css">
   <link rel="stylesheet" href="../css/base/common.css">
-  <link rel="stylesheet" href="../css/src/main_rwd.css">
-  <title> 웹 기초 </title>
+  <link rel="stylesheet" href="../css/src/rwd_main.css">
 
 </head>
 <body>
   <!-- layout -->
   <div class="wrap">
     <header id="headBox"></header>
-    <main class="page_content"></main>
+    <!-- html / main / page_content.html -->
+    <section id="viewBox">
+      <h2 class="blind">메인 광고 영역</h2>
+      <div class="indicator">
+        <ul class="blind_wrap">
+          <li class="act"><a href="#view_01"><span> 광고 1 </span></a></li>
+          <li><a href="#view_02"><span> 광고 2</span></a></li>
+          <li><a href="#view_03"><span> 광고 3</span></a></li>
+          <li><a href="#view_04"><span> 광고 4</span></a></li>
+        </ul>
+      </div>
+      <div class="view_area">
+        <div class="view_g">
+          <ul class="view_inner">
+            <li id="view_01">
+              <h3 class="blind">메인광고1</h3>
+              <dl>
+                <dt>old school jazz vinyl</dt>
+                <dd>jazz masterpiece in stock. <br />
+                  meet them now!</dd>
+                <dd><a href="#">바로가기</a></dd>  
+              </dl>
+            </li>
+            <li id="view_02">
+              <h3 class="blind">메인광고2</h3>
+              <dl>
+                <dt>classic music </dt>
+                <dd>enjoy classical mood <br />
+                  meet them now!</dd>
+                <dd><a href="#">바로가기</a></dd>  
+              </dl>
+            </li>
+            <li id="view_03">
+              <h3 class="blind">메인광고3</h3>
+              <dl>
+                <dt>modern drama</dt>
+                <dd>jazz masterpiece in stock. <br />
+                  meet them now!</dd>
+                <dd><a href="#">바로가기</a></dd>  
+              </dl>
+            </li>
+            <li id="view_04">
+              <h3 class="blind">메인광고4</h3>
+              <dl>
+                <dt>sensory music</dt>
+                <dd>jazz masterpiece in stock. <br />
+                  meet them now!</dd>
+                <dd><a href="#">바로가기</a></dd>  
+              </dl>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section> <!-- #viewBox ======================================= -->
+    <article id="bestBox">
+      <h2>best turntable</h2>
+      <div class="best_area">
+          <div class="best_01">
+            <a href="#">
+              <dl class="b_narr">
+                <dt>2021 신상품<br />사운드룩 dolce</dt>
+                <dd class="bc_con_01"><span class="blind ">디자인영역</span></dd>
+              </dl>
+            </a>
+        </div>
+        <div class="best_02">
+          <a href="#">
+            <dl class="b_narr_02">
+              <dt>올인원 best<br />slt-5080pro</dt>
+              <dd class="bc_con_02"><span class="blind">디자인영역</span></dd>
+            </dl>
+          </a>  
+        </div>
+        <div class="best_03">
+          <a href="#">
+            <dl class="b_narr">
+              <dt>가방형 턴테이블<br />slt-100bt</dt>
+              <dd class="bc_con_03"><span class="blind">디자인영역</span></dd>
+            </dl>
+          </a>  
+        </div>
+        </div>
+    </article> <!-- #bestBox =======================================-->
+    <section id="subViewBox">
+      <h2 class="blind"> 2021 new turntable  </h2>
+      <div class="subView_area">
+        <span class="blind"> pic_area </span>
+      </div>
+      <ul class="sv_con">
+        <li>사운드룩 dolce<br /> bluetooth radio turntable</li>
+        <li>lp+블루투스+라디오+일체형스피커 필요하 것만 담은 
+          dolce 진정한 미니멈 리치 라이프를 경험하세요</li>
+        <li><a href="#"> 바로가기</a></li>  
+      </ul>
+    </section> <!-- #subViewBox ==================================-->
+    <article id="recommendBox">
+      <h2 class="blind"> 취향에 맞는 턴테이블 추천 </h2>
+      <div class="re_area">
+        <div class="recommend_01">
+          <div class="re_pic">
+            <div class="r_narr">
+              <a href="#">
+                <p> 음악과 <br /> 레트로의 회귀 <br /> slt-7080bt <br />              
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="recommend_02">
+          <div class="re_pic">
+            <div class="r_narr">
+              <a href="#"> 
+                <p> 스타일로<br /> 턴테이블 <br /> gpo 11 <br />
+                </p>
+              </a>  
+          </div>
+          </div>
+        </div>
+        <div class="recommend_03">
+          <div class="re_pic">
+            <div class="r_narr">
+              <a href="#"> 
+                <p> 보헤미안<br /> 턴테이블 <br /> slt-200bt <br />
+                </p>
+              </a>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </article> <!-- #recommendBox =============================== -->
+    <section id="communityBox">
+      <h2 class="blind"> 사운드룩 음반신청게시판 </h2>
+        <p> 사운드룩 음반신청 게시판 <br />
+          찾으시는 음반이 없으시다면 신청하세요!
+        </p> 
+    </section> <!-- #communityBox ====================================-->
+    <article id="vinylBox">
+      <h2><i class="fas fa-compact-disc"></i> hot! 인기음반 </h2>
+      <div class="mob_btn">
+        <a href="#">
+          <span>지금 가장 hot한 vinyl 만나보기</span>
+        </a>
+      </div>
+      <div class="vinyl_btn_area">
+        <!-- <ul>
+          <li><a href="#">pop/rock</a></li>
+          <li><a href="#">jazz</a></li>
+          <li><a href="#">hiphop</a></li>
+          <li><a href="#">classic</a></li>
+          <li><a href="#">disco</a></li>
+          <li><a href="#">국내가요</a></li>
+        </ul> -->
+      </div>
+      <div class="vinyl_box">
+        <ul class="viny_list_area clearfix">
+          <!-- <li >
+            <div class="vinyl pic01"><span class="blind"></span></div>
+            <div class="vinyl_rarr">
+              <p> Cigarettes After Sex - Cigarettes After Sex[LP] </p>
+              <span> <del>41,900</del> </span>
+              <span> 40,000 </span>
+            </div>
+            <div class="vinyl_btn">
+              <button type="button"> 구매하기 </button>
+              <button type="button"> 장바구니 </button>
+            </div>
+          </li> -->
+        </ul>
+      </div>
+    </article> <!-- #vinylBox =======================================-->
     <footer id="footBox"></footer>
   </div>
   <!-- script -->
+ 
   <script src="../js/jquery/jquery-3.6.0.min.js"></script>
   <script src="../js/jquery/jquery-ui.min.js"></script>
-  <!-- <script src="../js/jquery/device_temp.js"></script> -->
-  <script src="../js/src/main_rwd.js"> </script>
+  <script src="../js/jquery/device_temp.js"></script>
+  <script src="../js/src/main_rwd.js"></script>
   <!-- <script src="../js/src/header.js"></script> -->
+  <!-- <script src="">/* 반응형기반 */</script> -->
+  <!-- <script src="">/* laptop,pc일경우 html생성, js불러오는 코드삽입 */</script> -->
+  <script src="../js/src/rwd_layout_001.js"></script>
+  <script src="../js/src/rwd_main_indi.js"></script>
+  <script>
+    /*현재 디바이스 체크*/
+
+    /* 
+    if(devictType = 'laptop' || devictType = 'pc'){
+      $('body').append('<js...>');
+    }
+    */
+  
+
+  </script>
 </body>
 </html>

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/* 기본 형틀 */
+@import url("./main/a_basic.css");
+/* 스마트폰 (min-width:340px) */
+@import url("./main/b_smartphone.css");
+/* 타블렛 (min-width:)(max-width:768px)*/
+@import url("./main/c_tablet.css");
+/* 노트북 (min-width:)(max-width:1599px)*/
+@import url("./main/d_notebook.css");
+/* 타블렛 (min-width:1600px)*/
+@import url("./main/e_pc.css");
+
