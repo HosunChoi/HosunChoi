@@ -221,7 +221,7 @@ margin-bottom:90px; margin-top:150px;}
 padding-left:60px;box-sizing: border-box;
 margin-left:40px; font-size:var(--font-size3); font-family: 'S-CoreDream_6';text-transform: uppercase; }
 
-
+#vinylBox h3{display: none;}
 .mob_btn {display: none;}
 
 .vinyl_btn_area { width:80%; height: 80px; margin:auto; 

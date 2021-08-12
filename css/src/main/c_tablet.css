@@ -274,18 +274,18 @@ text-transform: uppercase;line-height: 1.5;}
 #vinylBox {width:100%; height:690px;}
 
 #vinylBox h2 {display:none; }
-
+#vinylBox h3 {width:540px; height: auto;
+  margin: auto;
+  font-family: 'S-CoreDream_3';text-transform:uppercase;
+  font-size:var(--font-size3);
+  color:var(--color-navy3); padding:10%; box-sizing: border-box;  }
 .mob_btn {width:690px; height:690px; margin:auto;
 background-image:url("../../../img/bg/turntable_bg_008.jpg");
 background-repeat: no-repeat;
 background-size:100%;
 background-position: 75% 75%;}
 .mob_btn a {display:block; width:100%; height:100%;}
-.mob_btn a span {display:block;
-width:auto; height: auto; font-size: var(--font-size2);
-font-family: 'S-CoreDream_3';text-transform:uppercase;
-color:#fff; padding:5%; box-sizing: border-box;  
-}
+
 
 .vinyl_btn_area {display:none;}
 .vinyl_box { display:none;}
