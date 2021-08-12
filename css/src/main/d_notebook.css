@@ -11,7 +11,7 @@ margin:auto; padding-top:0.9375rem; box-sizing:border-box;
 background-color:#fff;  }
 .container {position:relative;
   width:100%; height:100%; }
-.head_btn {display:none;}
+.gnb_btn {display:none;}
 
 h1{ width:20rem; height:4.1875rem; margin:auto;}
 h1 a { display:block; width:100%; height:100%; 
@@ -57,10 +57,11 @@ transition: all 100ms ease; }
   border-radius: 100%;
   background-color:var(--color-white); }
 
-.indicator ul li.act a {background-color:var(--color-primary);}
+.indicator ul li.act a {background-color:var(--color-primary);
+  border-radius: 100%;}
 .indicator ul li.act a:hover,
 .indicator ul li.act a:focus {
-  border: 2px solid var(--color-pink);
+  border: 0.125rem solid var(--color-pink);
 }
 
 .view_area {width:100%; height:100%;
@@ -82,10 +83,10 @@ height:100%; background-color:#ddd;
     font-family: 'S-CoreDream_6';text-transform:uppercase;}
     .view_inner dl dd {font-size:var(--font-size3); color:#fff;
       font-family: 'S-CoreDream_3';text-transform: capitalize; 
-      line-height: 1.5; margin-top:10px;}
+      line-height: 1.5; margin-top:0.625rem;}
       .view_inner dl dd a {font-size:var(--font-size2);
         width:auto; height:auto;
-        border:1px solid #fff; padding:3px; 
+        border:0.0625rem solid #fff; padding:0.1875rem; 
         box-sizing: border-box; }
 #view_01 { height:100%; background-image:url("../../../img/bg/turntable_bg_006.jpg");
 background-size:cover;}
